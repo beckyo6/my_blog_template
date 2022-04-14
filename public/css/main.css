@@ -1,3 +1,14 @@
 @charset "UTF-8";
-
+/* ici se trouve la customisation */
 /* font-family font-family: 'Oswald', sans-serif; */
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Oswald', sans-serif;
+  }
+  

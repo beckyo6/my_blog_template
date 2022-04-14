@@ -28,7 +28,7 @@
             <title class="container title">
                 Becky ada
             </title>
-            <img src="" alt="logo Becky ada">
+            <img src="#" alt="logo Becky ada">
             {{-- end logo --}}
 
             {{-- menu --}}
