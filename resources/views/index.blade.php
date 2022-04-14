@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Mon blog</title>
-    
+
     {{-- font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,22 +16,22 @@
     <link rel="stylesheet" href="css/main.css">
     {{-- end css --}}
 
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     {{-- header --}}
     <div class="container-fluid header">
-        {{-- logo --}}
-            <img src="" alt="logo Becky ada">
-            <title class="title">
+        <div class="container">
+            {{-- logo --}}
+            <title class="container title">
                 Becky ada
             </title>
-        {{-- end logo --}}
+            <img src="" alt="logo Becky ada">
+            {{-- end logo --}}
 
-        {{-- menu --}}
-        <div class="container">
+            {{-- menu --}}
             <div class="nav navbar">
                 <a href="#"> Home </a>
                 <a href="#"> Liste des articles</a>
