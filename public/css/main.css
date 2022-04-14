@@ -2,13 +2,17 @@
 /* ici se trouve la customisation */
 /* font-family font-family: 'Oswald', sans-serif; */
 
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
 }
 
 body {
-    
+
     font-family: 'Oswald', sans-serif;
-  }
-  
+}
+
+.header {
+    background-color: #280000;
+}
