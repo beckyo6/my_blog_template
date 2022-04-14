@@ -42,6 +42,21 @@
         {{-- end menu --}}
     </div>
     {{-- end header --}}
+
+    {{-- bannière --}}
+    <div class="container-fluid banner">
+        <div class="container">
+            <div class="ban">
+                <img src="img/ban.jpg" alt="bannière">
+            </div>
+            <div class="inner">
+                <h1>Bienvenue au blog de Becky Ada</h1>
+            </div>
+        </div>
+
+    </div>
+    {{-- end bannière --}}
+
 </body>
 
 </html>
