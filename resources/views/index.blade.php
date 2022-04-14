@@ -25,17 +25,17 @@
     <div class="container-fluid header">
         <div class="container">
             {{-- logo --}}
-            <title class="container title">
+            <h1 class="title">
                 Becky ada
-            </title>
-            <img src="#" alt="logo Becky ada">
+            </h1>
+            {{--<img src="" alt="logo Becky ada">--}}
             {{-- end logo --}}
 
             {{-- menu --}}
-            <div class="nav navbar">
-                <a href="#"> Home </a>
-                <a href="#"> Liste des articles</a>
-                <a href="#"> Liste des catégories</a>
+            <div class="menu">
+                <a href="#">Home </a>
+                <a href="#">Articles</a>
+                <a href="#">Catégories</a>
                 <a href="#">À propos</a>
             </div>
         </div>
