@@ -21,7 +21,27 @@
 </head>
 
 <body>
- 
+    {{-- header --}}
+    <div class="container-fluid header">
+        {{-- logo --}}
+            <img src="" alt="logo Becky ada">
+            <title class="title">
+                Becky ada
+            </title>
+        {{-- end logo --}}
+
+        {{-- menu --}}
+        <div class="container">
+            <div class="nav navbar">
+                <a href="#"> Home </a>
+                <a href="#"> Liste des articles</a>
+                <a href="#"> Liste des catégories</a>
+                <a href="#">À propos</a>
+            </div>
+        </div>
+        {{-- end menu --}}
+    </div>
+    {{-- end header --}}
 </body>
 
 </html>
