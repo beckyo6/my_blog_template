@@ -45,12 +45,41 @@
 
     {{-- bannière --}}
     <div class="container-fluid banner">
-            <img class="img-fluid" src="img/ban.jpg" alt="bannière du blog">
+        <img class="img-fluid" src="img/ban.jpg" alt="bannière du blog">
         <div class="inner-banner">
             <h1>Bienvenue sur blog de Becky Ada</h1>
         </div>
     </div>
     {{-- end bannière --}}
+
+    <div class="container-fluid p-0">
+        <div class="container">
+            <h1>Liste des articles</h1>
+            <section class="col-md-8">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-12">
+                            <h2>php</h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-lg-12">
+                            <h2>php</h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-lg-12">
+                            <h2>php</h2>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </div>
 
 </body>
 
