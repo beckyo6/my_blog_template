@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/main.css">
     {{-- end css --}}
 
+    {{-- javascripts --}}
+    <script href="js/bootstrap.min.js"> </script>
+    {{-- javascripts --}}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -44,41 +47,51 @@
     </div>
     {{-- end header --}}
 
-    {{-- bannière --}}
+    {{-- bannière 
     <div class="container-fluid banner">
         <img class="img-fluid" src="img/ban.jpg" alt="bannière du blog">
         <div class="inner-banner">
             <h1>Bienvenue sur blog de Becky Ada</h1>
         </div>
     </div>
-    {{-- end bannière --}}
+    end bannière --}}
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid article">
         <div class="container">
-            <h1>Liste des articles</h1>
-            <section class="col-md-8">
-                <div class="container-fluid p-0">
-                    <div class="row g-0">
-                        <div class="col-lg-12">
-                            <h2>php</h2>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
-                        </div>
-                    </div>
-                    <div class="row g-0">
-                        <div class="col-lg-12">
-                            <h2>php</h2>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
-                        </div>
-                    </div>
-                    <div class="row g-0">
-                        <div class="col-lg-12">
-                            <h2>php</h2>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem quaerat accusantium, id unde molestias corrupti iste?
-                        </div>
+            <section class="col-md-12">
+                <div class="row">
+                    <article class="col-md-10">
+                        <h2>php</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat
+                        expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
+                        quaerat accusantium, id unde molestias corrupti iste?
+                    </article>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <aside class="col">
+                            <article class="row">
+                                <div class="col-lg-12">
+                                    <h2>php</h2>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio
+                                    fugiat
+                                    expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
+                                    quaerat accusantium, id unde molestias corrupti iste?
+                                </div>
+                            </article>
+                            <article class="row">
+                                <div class="col-lg-12">
+                                    <h2>php</h2>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio
+                                    fugiat
+                                    expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
+                                    quaerat accusantium, id unde molestias corrupti iste?
+                                </div>
+                            </article>
+                        </aside>
                     </div>
                 </div>
             </section>
-            
         </div>
     </div>
 
@@ -86,13 +99,19 @@
     <footer class="container-fluid footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <h2 id="about">À propos</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni minima nihil quae dolorem assumenda voluptatum! Alias rerum, voluptates aut corporis consequuntur, pariatur quas ullam, magnam quasi beatae obcaecati esse.
+                    <hr>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni minima nihil quae dolorem
+                    assumenda voluptatum! Alias rerum, voluptates aut corporis consequuntur, pariatur quas ullam, magnam
+                    quasi beatae obcaecati esse.
                 </div>
                 <div class="col-md-4">
                     <h2 id="contact">Me contacter</h2>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis atque qui voluptas tempora, consectetur nesciunt, expedita dolor accusantium veniam nobis, quisquam nemo mollitia dolore libero quidem!
+                    <hr>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis
+                    atque qui voluptas tempora, consectetur nesciunt, expedita dolor accusantium veniam nobis, quisquam
+                    nemo mollitia dolore libero quidem!
                 </div>
             </div>
         </div>
