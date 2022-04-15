@@ -80,7 +80,20 @@
             
         </div>
     </div>
-
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>À propos</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni minima nihil quae dolorem assumenda voluptatum! Alias rerum, voluptates aut corporis consequuntur, pariatur quas ullam, magnam quasi beatae obcaecati esse.
+                </div>
+                <div class="col-md-4">
+                    <h2>Me contacter</h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis atque qui voluptas tempora, consectetur nesciunt, expedita dolor accusantium veniam nobis, quisquam nemo mollitia dolore libero quidem!
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
