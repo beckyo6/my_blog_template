@@ -28,7 +28,7 @@
             <h1 class="title">
                 Becky ada
             </h1>
-            {{--<img src="" alt="logo Becky ada">--}}
+            {{-- <img src="" alt="logo Becky ada"> --}}
             {{-- end logo --}}
 
             {{-- menu --}}
@@ -45,15 +45,10 @@
 
     {{-- bannière --}}
     <div class="container-fluid banner">
-        <div class="container">
-            <div class="ban">
-                <img src="img/ban.jpg" alt="bannière">
-            </div>
-            <div class="inner">
-                <h1>Bienvenue au blog de Becky Ada</h1>
-            </div>
+            <img class="img-fluid" src="img/ban.jpg" alt="bannière du blog">
+        <div class="inner-banner">
+            <h1>Bienvenue sur blog de Becky Ada</h1>
         </div>
-
     </div>
     {{-- end bannière --}}
 

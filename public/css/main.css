@@ -17,6 +17,17 @@ a {
     text-decoration: none;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.img-fluid {
+    display: block;
+    width: auto;
+}
+
 /* header */
 
 .header {
@@ -44,3 +55,26 @@ a {
 }
 
 /* end header */
+
+/* banner */
+.banner {
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.inner-banner h1 {
+    text-align: center;
+    color: #280000;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px;
+}
+
+
+/* end banner */
