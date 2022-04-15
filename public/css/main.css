@@ -28,6 +28,11 @@ a {
     width: auto;
 }
 
+
+.bg-maincolor {
+    background-color: #280000 !important;
+}
+
 /* header */
 
 .header {

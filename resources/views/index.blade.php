@@ -25,38 +25,27 @@
 
 <body>
     {{-- header --}}
-    <div class="container-fluid header">
-        <div class="container">
-            {{-- logo --}}
-            <h1 class="title">
-                Becky ada
-            </h1>
-            {{-- <img src="" alt="logo Becky ada"> --}}
-            {{-- end logo --}}
-
-            {{-- menu --}}
-            <div class="menu">
-                <a href="#">Home </a>
-                <a href="#">Articles</a>
-                <a href="#">Catégories</a>
-                <a href="#about">À propos</a>
-                <a href="#contact">Me contactez</a>
+    <header>
+        <nav class="bg-light">
+            <div class="conatiner">
+                <div class="container-fluid">
+                    <div class="bg-maincolor py-4 pt-1 text-white">
+                        <h2 >Becky Ada</h2>
+                        <div class="menu text-center">
+                            <a href="#">Home </a>
+                            <a href="#">Articles</a>
+                            <a href="#">Catégories</a>
+                            <a href="#about">À propos</a>
+                            <a href="#contact">Me contactez</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        {{-- end menu --}}
-    </div>
+        </nav>
+    </header>
     {{-- end header --}}
-
-    {{-- bannière 
-    <div class="container-fluid banner">
-        <img class="img-fluid" src="img/ban.jpg" alt="bannière du blog">
-        <div class="inner-banner">
-            <h1>Bienvenue sur blog de Becky Ada</h1>
-        </div>
-    </div>
-    end bannière --}}
-
-    <div class="container-fluid article">
+    
+    {{--<div class="container-fluid article">
         <div class="container">
             <section class="col-md-12">
                 <div class="row">
@@ -95,7 +84,6 @@
         </div>
     </div>
 
-    {{-- footer --}}
     <footer class="container-fluid footer">
         <div class="container">
             <div class="row">
