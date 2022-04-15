@@ -78,3 +78,17 @@ a {
 
 
 /* end banner */
+
+/* footer */
+.footer {
+    background-color: #280000;
+    color: white;
+}
+
+.footer h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* end footer */
