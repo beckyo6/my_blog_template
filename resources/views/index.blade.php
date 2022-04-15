@@ -55,58 +55,130 @@
     <main>
         <section class="">
             <div class="container-fluid">
+                {{-- bannière --}}
                 <div class="row">
-                    <img class="w-100" src="img/ban.jpg" alt="la bannière du site">
+                    <img class="img-fluid" height="140px" src="img/ban-modified-2.jpeg" alt="la bannière du site">
                     <div class="row">
                         <div class="inner-banner">
-                            <h1>Je suis Becky ada, développeuse web.</h1>
-                            <h2>Bienvenue sur mon blog!</h2>
+                            <h1 class="text-white">Je suis Becky ada, développeuse web.</h1>
+                            <h2 class="text-white">Bienvenue sur mon blog!</h2>
                         </div>
                     </div>
                 </div>
+                {{-- end bannière --}}
             </div>
+        </section>
+        <section>
+            {{-- session --}}
+            <div class="row py-4">
+                <div class="card-group">
+                    {{-- liste des articles --}}
+                    <div class="col-md-6 offset-md-1">
+                        <h1>Articles</h1>
+                        <hr>
+                        <div class="row py-1">
+                            <div class="col-md-12">
+                                <div class="card mb-3" style="height: 13.4em">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="img/ban-modified.jpeg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Special title treatment</h5>
+                                                <p class="card-text">With supporting text below as a natural
+                                                    lead-in to
+                                                    additional
+                                                    content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @for ($i = 0; $i < 10; $i++)
+                                <div class="col-md-6">
+                                    <div class="card text-left mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Special title treatment</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional
+                                                content.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endfor
+
+                        </div>
+                    </div>
+                    {{-- end liste des articles --}}
+
+                    {{-- 5 derniers articles --}}
+                    <div class="col-md-4 offset-md-1">
+                        <h1>5 derniers articles</h1>
+                        <hr>
+                        <div class="card text-left mb-3" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to
+                                    additional
+                                    content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                        <div class="card text-left mb-2" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to
+                                    additional
+                                    content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card text-left mb-2" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to
+                                    additional
+                                    content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card text-left mb-2" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title mb-2">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to
+                                    additional
+                                    content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card text-left" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to
+                                    additional
+                                    content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- end 5 derniers articles --}}
+                </div>
+            </div>
+            {{-- end session --}}
         </section>
     </main>
     {{-- end main --}}
-    {{-- <div class="container-fluid article">
-        <div class="container">
-            <section class="col-md-12">
-                <div class="row">
-                    <article class="col-md-10">
-                        <h2>php</h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio fugiat
-                        expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
-                        quaerat accusantium, id unde molestias corrupti iste?
-                    </article>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <aside class="col">
-                            <article class="row">
-                                <div class="col-lg-12">
-                                    <h2>php</h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio
-                                    fugiat
-                                    expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
-                                    quaerat accusantium, id unde molestias corrupti iste?
-                                </div>
-                            </article>
-                            <article class="row">
-                                <div class="col-lg-12">
-                                    <h2>php</h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum deserunt odio
-                                    fugiat
-                                    expedita assumenda nobis, rem nostrum minima reiciendis similique voluptate dolorem
-                                    quaerat accusantium, id unde molestias corrupti iste?
-                                </div>
-                            </article>
-                        </aside>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
+    {{-- footer 
     <footer class="container-fluid footer">
         <div class="container">
             <div class="row">
