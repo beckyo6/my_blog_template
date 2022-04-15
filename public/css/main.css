@@ -74,11 +74,15 @@ a {
     left: 0%;
 }
 
-.inner-banner h1 {
+.inner-banner h1, h2 {
     text-align: center;
-    color: #280000;
+    color: black;
     font-weight: bold;
     text-shadow: 1px 1px 20px;
+}
+
+.inner-banner h1 {
+    text-transform: uppercase;
 }
 
 

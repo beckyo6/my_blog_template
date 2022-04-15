@@ -44,7 +44,24 @@
         </nav>
     </header>
     {{-- end header --}}
-    
+
+    {{-- main --}}
+    <main>
+        <section class="">
+            <div class="container-fluid">
+                <div class="row">
+                    <img class="w-100" src="img/ban.jpg" alt="la bannière du site">
+                    <div class="row">
+                        <div class="inner-banner">
+                            <h1>Je suis Becky ada, développeuse web.</h1>
+                            <h2>Bienvenue sur mon blog!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {{-- end main --}}
     {{--<div class="container-fluid article">
         <div class="container">
             <section class="col-md-12">
