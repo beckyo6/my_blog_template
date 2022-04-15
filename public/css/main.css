@@ -74,17 +74,27 @@ a {
     left: 0%;
 }
 
-.inner-banner h1, h2 {
+.inner-banner h1 {
     text-align: center;
     color: black;
     font-weight: bold;
     text-shadow: 1px 1px 20px;
+    text-transform: uppercase;
+
 }
 
-.inner-banner h1 {
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    font-weight: bold;
     text-transform: uppercase;
 }
-
 
 /* end banner */
 

@@ -29,14 +29,20 @@
         <nav class="bg-light">
             <div class="conatiner">
                 <div class="container-fluid">
-                    <div class="bg-maincolor py-4 pt-1 text-white">
-                        <h2 >Becky Ada</h2>
-                        <div class="menu text-center">
-                            <a href="#">Home </a>
-                            <a href="#">Articles</a>
-                            <a href="#">Catégories</a>
-                            <a href="#about">À propos</a>
-                            <a href="#contact">Me contactez</a>
+                    <div class="bg-maincolor py-2 px-1 text-white">
+                        <div class="row">
+                            <div class="col-2">
+                                <h2 class="logo">Becky Ada</h2>
+                            </div>
+                            <div class="col-6 offset-md-4">
+                                <div class="menu text-center">
+                                    <a href="#">Home </a>
+                                    <a href="#">Articles</a>
+                                    <a href="#">Catégories</a>
+                                    <a href="#about">À propos</a>
+                                    <a href="#contact">Me contactez</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +68,7 @@
         </section>
     </main>
     {{-- end main --}}
-    {{--<div class="container-fluid article">
+    {{-- <div class="container-fluid article">
         <div class="container">
             <section class="col-md-12">
                 <div class="row">
