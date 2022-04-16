@@ -37,7 +37,7 @@
                             <div class="col-6 offset-md-4">
                                 <div class="menu text-center">
                                     <a href="#">Home </a>
-                                    <a href="#">Articles</a>
+                                    <a href="#post">Articles</a>
                                     <a href="#">Catégories</a>
                                     <a href="#about">À propos</a>
                                     <a href="#contact">Me contactez</a>
@@ -74,7 +74,7 @@
                 <div class="card-group">
                     {{-- liste des articles --}}
                     <div class="col-md-6 offset-md-1">
-                        <h1>Articles</h1>
+                        <h1 id="post">Articles</h1>
                         <hr>
                         <div class="row py-1">
                             <div class="col-md-12">
@@ -184,14 +184,14 @@
         <div class="container">
             <div class="row py-3">
                 <div class="col-md-5">
-                    <h2 id="about">À propos</h2>
+                    <h2 id="about" class="text-white">À propos</h2>
                     <hr>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni minima nihil quae dolorem
                     assumenda voluptatum! Alias rerum, voluptates aut corporis consequuntur, pariatur quas ullam, magnam
                     quasi beatae obcaecati esse.
                 </div>
                 <div class="col-md-3 offset-md-2">
-                    <h2 id="contact">Me contacter</h2>
+                    <h2 id="contact" class="text-white">Me contacter</h2>
                     <hr>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis
                     atque qui voluptas tempora, consectetur nesciunt, expedita dolor accusantium veniam nobis, quisquam
