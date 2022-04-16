@@ -178,18 +178,19 @@
         </section>
     </main>
     {{-- end main --}}
-    {{-- footer 
+
+    {{-- footer --}}
     <footer class="container-fluid footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row py-3">
+                <div class="col-md-5">
                     <h2 id="about">À propos</h2>
                     <hr>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni minima nihil quae dolorem
                     assumenda voluptatum! Alias rerum, voluptates aut corporis consequuntur, pariatur quas ullam, magnam
                     quasi beatae obcaecati esse.
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3 offset-md-2">
                     <h2 id="contact">Me contacter</h2>
                     <hr>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis
