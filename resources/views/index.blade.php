@@ -85,9 +85,14 @@
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
-                                                <h5 class="card-title">Special title treatment</h5>
+                                                <a href="#">
+                                                    <h5 class="card-title">Special title treatment</h5>
+                                                </a>
                                                 <p class="card-text">
-                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum fugiat nesciunt eveniet dolore quibusdam quae dolorum. Culpa officiis ea voluptas, delectus necessitatibus dicta asperiores, nostrum vero animi sint nihil expedita?
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                                                    fugiat nesciunt eveniet dolore quibusdam quae dolorum. Culpa
+                                                    officiis ea voluptas, delectus necessitatibus dicta asperiores,
+                                                    nostrum vero animi sint nihil expedita?
                                                 </p>
                                             </div>
                                         </div>
@@ -98,9 +103,14 @@
                                 <div class="col-md-6">
                                     <div class="card text-left mb-3">
                                         <div class="card-body">
-                                            <h5 class="card-title">Special title treatment</h5>
+                                            <a href="#">
+                                                <h5 class="card-title">Special title treatment</h5>
+                                            </a>
                                             <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi neque accusamus obcaecati aliquam deserunt, eos perferendis corporis impedit nemo tempora rerum sequi, magnam facilis voluptate laborum mollitia in repudiandae totam!
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi neque
+                                                accusamus obcaecati aliquam deserunt, eos perferendis corporis impedit
+                                                nemo tempora rerum sequi, magnam facilis voluptate laborum mollitia in
+                                                repudiandae totam!
                                             </p>
                                         </div>
                                     </div>
@@ -114,47 +124,21 @@
                     <div class="col-md-4 offset-md-1">
                         <h1>5 derniers articles</h1>
                         <hr>
-                        <div class="card text-left mb-3" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ab obcaecati, nam repellendus illum optio vel magni, explicabo expedita tempore alias. Quae, molestiae optio iure saepe aliquid quisquam repellat vitae.
-                                </p>
+                        @for ($i = 0; $i < 5; $i++)
+                            <div class="card text-left mb-3" style="width: 18rem;">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                    </a>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ab obcaecati, nam
+                                        repellendus illum optio vel magni, explicabo expedita tempore alias. Quae,
+                                        molestiae
+                                        optio iure saepe aliquid quisquam repellat vitae.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="card text-left mb-2" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem voluptatem, delectus ab culpa perferendis, ad expedita cumque reprehenderit nostrum, et saepe animi blanditiis aliquid quos! Atque molestiae delectus modi.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card text-left mb-2" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consectetur et quas corrupti, velit rem accusantium aliquam ad itaque minus, modi corporis tempore ea. Explicabo iusto consequuntur obcaecati amet nobis!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card text-left mb-2" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title mb-2">Special title treatment</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident neque voluptatum rerum dolore quis illum consequatur accusamus modi eaque pariatur corrupti ipsam beatae cupiditate totam, deserunt, perferendis tempore alias tenetur.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card text-left" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda maiores placeat nobis eum alias. Debitis delectus fuga corporis adipisci, nesciunt, maiores incidunt ad fugiat quae quis reprehenderit rerum at ab?
-                                </p>
-                            </div>
-                        </div>
+                        @endfor
                     </div>
                     {{-- end 5 derniers articles --}}
                 </div>

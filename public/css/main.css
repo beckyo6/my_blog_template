@@ -91,6 +91,18 @@ h2 {
 
 /* end banner */
 
+/* articles */
+
+a:hover {
+    color: #ac3931;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* end articles*/
+
 /* footer */
 .footer {
     background-color: #280000;
