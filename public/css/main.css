@@ -35,29 +35,6 @@ a {
 
 /* header */
 
-.header {
-    background-color: #280000;
-    height: 70px;
-    line-height: 70px;
-}
-
-.title {
-    float: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #ffff;
-}
-
-.menu {
-    float: right;
-}
-
-.menu a {
-    color: #ffff;
-    text-decoration: none;
-    margin-right: 50px;
-}
 
 /* end header */
 

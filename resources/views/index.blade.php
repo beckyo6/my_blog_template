@@ -82,7 +82,7 @@
                         <hr>
                         <div class="row py-1">
                             <div class="col-md-12">
-                                <div class="card mb-3" style="height: 13.4em">
+                                <div class="card mb-3" style="height: 9.3em">
                                     <div class="row g-0">
                                         <div class="col-md-4">
                                             <img src="img/ban-modified.jpeg" class="img-fluid rounded-start" alt="...">
