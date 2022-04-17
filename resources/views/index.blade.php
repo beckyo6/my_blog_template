@@ -18,6 +18,7 @@
 
     {{-- javascripts --}}
     <script href="js/bootstrap.min.js"> </script>
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     {{-- javascripts --}}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -86,9 +87,9 @@
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="#">
-                                                    <h5 class="card-title">Special title treatment</h5>
+                                                    <h5 class="card-title fw-bold">Special title treatment</h5>
                                                 </a>
-                                                <p class="card-text">
+                                                <p class="card-text text-start">
                                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
                                                     fugiat nesciunt eveniet dolore quibusdam quae dolorum. Culpa
                                                     officiis ea voluptas, delectus necessitatibus dicta asperiores,
@@ -104,9 +105,9 @@
                                     <div class="card text-left mb-3">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h5 class="card-title">Special title treatment</h5>
+                                                <h5 class="card-title fw-bold">Special title treatment</h5>
                                             </a>
-                                            <p class="card-text">
+                                            <p class="card-text text-start">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi neque
                                                 accusamus obcaecati aliquam deserunt, eos perferendis corporis impedit
                                                 nemo tempora rerum sequi, magnam facilis voluptate laborum mollitia in
@@ -128,9 +129,9 @@
                             <div class="card text-left mb-3" style="width: 18rem;">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h5 class="card-title">Special title treatment</h5>
+                                        <h5 class="card-title fw-bold">Special title treatment</h5>
                                     </a>
-                                    <p class="card-text">
+                                    <p class="card-text text-start">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ab obcaecati, nam
                                         repellendus illum optio vel magni, explicabo expedita tempore alias. Quae,
                                         molestiae
