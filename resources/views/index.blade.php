@@ -28,26 +28,28 @@
 <body>
     {{-- header --}}
     <header>
-        <nav class="bg-light">
-            <div class="conatiner">
-                <div class="container-fluid">
-                    <div class="bg-maincolor py-2 px-1 text-white">
-                        <div class="row">
-                            <div class="col-2">
-                                <h2 class="logo">Becky Ada</h2>
-                            </div>
-                            <div class="col-6 offset-md-4">
-                                <div class="menu text-center">
-                                    <a href="#">Home </a>
-                                    <a href="#post">Articles</a>
-                                    <a href="#">Catégories</a>
-                                    <a href="#about">À propos</a>
-                                    <a href="#contact">Me contactez</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <nav class="navbar navbar-expand-md bg-maincolor py-2 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand text-uppercase fw-bold ">
+                    <span class="bg-gradient p-1 rounded-3 text-light">Becky Ada</span>
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#post">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Catégories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
