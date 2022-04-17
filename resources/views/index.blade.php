@@ -34,14 +34,21 @@
                     <span class="bg-gradient p-1 rounded-3 text-light">Becky Ada</span>
                 </a>
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#post">Articles</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Catégories</a>
+                    <li class="nav-item dropdown">
+                        <h6 class="nav-link dropdown-toggle text-white">
+                            Catégories
+                        </h6>
+                        <div class="dropdown-menu">
+                            @for ($i = 0; $i < 5; $i++)
+                                <a class="dropdown-item" href="#">php</a>
+                            @endfor
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#about">À propos</a>
@@ -176,11 +183,20 @@
                     <span class="copyright ml-auto my-auto mr-2">Copyright © 2022, designed by
                         <a href="https://beckyada.com" rel="nofollow">Becky ada</a>
                     </span>
-                </div>                
+                </div>
             </div>
         </div>
     </footer>
     {{-- end footer --}}
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('h6').mouseover(function() {
+            $(this).dropdown('toggle')
+        })
+    </script>
 </body>
 
 </html>
