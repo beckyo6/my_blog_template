@@ -61,11 +61,11 @@
             <div class="container-fluid">
                 {{-- bannière --}}
                 <div class="row">
-                    <img class="img-fluid" height="140px" src="img/ban-modified-2.jpeg" alt="la bannière du site">
+                    <img class="img-fluid" height="140px" src="img/ban.jpeg" alt="la bannière du site">
                     <div class="row">
                         <div class="inner-banner">
-                            <h1 class="text-white text-center fw-bold">Je suis Becky ada, développeuse web.</h1>
-                            <h2 class="text-white text-center fw-bold">Bienvenue sur mon blog!</h2>
+                            <h1 class="text-dark text-center fw-bold">Je suis Becky ada, développeuse web.</h1>
+                            <h2 class="text-dark text-center">Bienvenue sur mon blog!</h2>
                         </div>
                     </div>
                 </div>
