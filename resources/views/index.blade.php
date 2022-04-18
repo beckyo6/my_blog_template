@@ -108,7 +108,7 @@
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="#">
-                                                    <h5 class="card-title fw-bold">Special title treatment</h5>
+                                                    <h5 class="card-title fw-bold">Titre de l'article</h5>
                                                 </a>
                                                 <p class="card-text text-start">
                                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
@@ -126,7 +126,7 @@
                                     <div class="card text-left mb-3">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h5 class="card-title fw-bold">Special title treatment</h5>
+                                                <h5 class="card-title fw-bold">Titre de l'article</h5>
                                             </a>
                                             <p class="card-text text-start">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi neque
@@ -150,7 +150,7 @@
                             <div class="card text-left mb-3" style="width: 18rem;">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h5 class="card-title fw-bold">Special title treatment</h5>
+                                        <h5 class="card-title fw-bold">Titre de l'article {{$i}}</h5>
                                     </a>
                                     <p class="card-text text-start">
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ab obcaecati, nam
