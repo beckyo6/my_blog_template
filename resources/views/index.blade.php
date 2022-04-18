@@ -18,6 +18,7 @@
     {{-- end css --}}
 
     {{-- javascripts --}}
+    <script href="js/jquery-3.6.0.min.js"> </script>
     <script href="js/bootstrap.min.js"> </script>
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     {{-- javascripts --}}
@@ -33,30 +34,38 @@
                 <a href="#" class="navbar-brand text-uppercase fw-bold ">
                     <span class="bg-gradient p-1 rounded-3 text-light">Becky Ada</span>
                 </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#post">Articles</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <h6 class="nav-link dropdown-toggle text-white">
-                            Catégories
-                        </h6>
-                        <div class="dropdown-menu">
-                            @for ($i = 0; $i < 5; $i++)
-                                <a class="dropdown-item" href="#">php</a>
-                            @endfor
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#about">À propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#post">Articles</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <h6 class="nav-link dropdown-toggle text-white">
+                                Catégories
+                            </h6>
+                            <div class="dropdown-menu">
+                                @for ($i = 0; $i < 5; $i++)
+                                    <a class="dropdown-item" href="#">php</a>
+                                @endfor
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
