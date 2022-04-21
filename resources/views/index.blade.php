@@ -187,6 +187,34 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque repudiandae autem labore veritatis
                     atque qui voluptas tempora, consectetur nesciunt, expedita dolor accusantium veniam nobis, quisquam
                     nemo mollitia dolore libero quidem!
+                    
+                    <ul class="social">
+                        <li class="list-enligne-item">
+                            <a href="#">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-enligne-item">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-enligne-item">
+                            <a href="#">
+                                <i class="fa fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="list-enligne-item">
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-enligne-item">
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row offset-9">
